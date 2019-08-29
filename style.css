@@ -1,0 +1,183 @@
+*{
+	outline: none;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #ffffff;
+	font-family: 'Rubik', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+	color: #313131;
+	font-weight: 300;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  background: #ffffff;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color:rgba(15, 43, 69, 0.83);
+	overflow: hidden;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	height: 50px;
+	border-bottom: solid 1px rgba(244, 240, 240, 0.5);
+}
+
+nav ul li{
+	float: left;
+}
+
+li a{
+	display: block;
+	text-align: right;
+	padding: 20px;
+	margin: 0px 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.active{
+	color:#337ab7;
+}
+.container{
+	width: 100%;
+}
+
+.back-section{
+	background:#0f2b45;
+	height: 700px;
+	position:relative;
+}
+.b-img{
+	width:30%;
+	position: absolute;
+	padding-top: 25vh;
+	margin: 0% 0% 0% 6%;
+}
+img{
+	width: 300px;
+	border:1px solid rgba(250, 250, 250, 0.5);
+	border-radius: 10px;
+	box-shadow:0px -1px 6px 0px rgba(156, 151, 151, 0.76);
+}
+.wapper{
+	padding-top: 20vh;
+	margin: 0% 0% 10% 20%;
+	position:absolute;	
+}
+
+.wapper-head{
+ 	font-weight: 200;
+ 	line-height: 1.4rem;
+ 	font-size: 3rem;
+ 	text-align: center;
+ 	margin-top: 30px;
+ 	padding: 50px;
+ 	text-transform: uppercase;
+ 	color: #ffffff;
+
+}
+.wapper-body{
+	color: rgba(255, 255, 255, 0.66);
+	margin: 0% 0% 0% 30%;
+	font-size: 1rem;
+    font-weight: 100;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+    width: 50%;
+    text-align: justify;
+}
+
+#bio-data{
+	padding: 5% 0 0% 0;
+}
+.bio-title{
+ 	font-size: 2rem;
+ 	font-weight: 700;
+ 	color:#2b2b2b;
+ 	margin:0 0 10px 0;
+ 	text-transform: uppercase;
+ 	text-align: center;
+ 	position: relative;
+}
+.bio-info{
+	padding:  1% 0% 1% 5%;
+}
+.bio-info ul{
+	list-style-type: none;
+	padding: 0; 
+}
+.bio-info > ul > li{
+	margin: 0 0 30px 0;
+	font-size: 17px;
+	font-weight: 300;
+}
+.bio-info .b-head{
+	display: block;
+	width: 200px;
+	float:  left;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+
+.bio-info .info{
+	display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2px;
+    padding-left:  20%;
+    margin: -10px;
+}
+
+#experience{
+	padding: 5% 0 5% 0;
+	background: #0f2b45;
+}
+.exp{
+	background: #ffffff;
+    margin-bottom: 75px;
+    max-width: 80%;
+    min-height: 200px; 
+    margin: 0 auto 0 auto;
+    padding: 30px 40px;
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: .4s;
+    transition: .4s;
+    z-index: 1;
+    box-shadow:0px -1px 6px 0px rgba(156, 151, 151, 0.76);
+}
+.exp-head{
+	margin: 20px;
+	text-align: justify;
+	font-weight: 500;
+	font-size: 1.1rem;
+}
+
+.exp-head > p{
+	margin: 5px 0 0 0; 
+	text-align: justify;
+	font-weight: 200;
+	font-size: 1rem;
+}
+#education{
+	padding: 5% 0 5% 0;
+}
+#skills{
+	padding: 5% 0 5% 0;
+	background: #0f2b45;
+}
+
+footer{
+	padding: 2% 0 5% 5%;
+}
+
